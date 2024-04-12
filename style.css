@@ -63,8 +63,9 @@
     font-size: 16px;
     font-family: Josefin Sans;
     border-radius: 10px;
-    border-radius: 3px solid black;
+    border: 3px solid black;
     background-color: black;
+    transition:0.5s;
     color: white;
     font-weight: 600;
 }
