@@ -36,7 +36,7 @@
 }
 
 .mycol{
-    height: 400px;
+    height: 200px;
     border: 3px solid black;}
 
 
@@ -130,6 +130,70 @@
     transition: 0.5s;
 }
 .buttons button:hover{
+    background-color: black;
+    color: white;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+.head h1{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.head p{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+}
+.prod_box{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.ring1{
+    height: 100%;
+    width: 100%;
+    border: 20px solid rgba(0, 255, 64, 0.597);
+    border-radius: 50%;
+    position: absolute;}
+.ring2{
+    height: 75%;
+    width:75%;
+    border: 20px solid rgba(92, 128, 0, 0.259);
+    border-radius: 50%;
+    position: absolute}
+.prod{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+.head{
+    margin-bottom: 70px;}
+.prod_box img{
+    height:98%;
+    position: absolute;
+    top: -50px;}
+.buy{
+    padding: 5px 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-bottom: 60px;
+}
+.buy:hover{
     background-color: black;
     color: white;
 }
