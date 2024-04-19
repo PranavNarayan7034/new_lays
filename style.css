@@ -35,9 +35,7 @@
     color: black;
 }
 
-.mycol{
-    height: 200px;
-    border: 3px solid black;}
+
 
 
 .intro{
@@ -133,32 +131,31 @@
     background-color: black;
     color: white;
 }
-
 .products{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px 0;
+    margin: 50px 80px;
+}
+.head{
+    margin: 80px 0;
 }
 .head h1{
+    font-family: Poppins;
     text-align: center;
-    font-family: poppins;
     font-weight: 600;
-    letter-spacing: 5px;
 }
 .head p{
+    font-family:Poppins ;
     text-align: center;
-    font-family: poppins;
+    font-size: 14px;
     font-weight: 500;
 }
 .prod_box{
-    height: 250px;
-    width: 250px;
-    background-color: yellow;
+    height: 230px;
+    width: 230px;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
 .ring1{
     height: 100%;
     width: 100%;
@@ -170,19 +167,21 @@
     width:75%;
     border: 20px solid rgba(92, 128, 0, 0.259);
     border-radius: 50%;
-    position: absolute}
-.prod{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-.head{
-    margin-bottom: 70px;}
+    position: absolute
+}
 .prod_box img{
     height:98%;
     position: absolute;
     top: -50px;}
+
+.prod_price{
+    font-family: Poppins;
+    font-weight: 600;
+}
+.prod_info{
+    font-family: Poppins;
+    font-size: 14px;
+}
 .buy{
     padding: 5px 20px;
     border: 2px solid;
@@ -196,4 +195,40 @@
 .buy:hover{
     background-color: black;
     color: white;
+}
+.col{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 50px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mycol{
+    height: 480px;
+    border: 3px solid black;
+}
+.prod_box1{
+    background-color: yellow;
+}
+.prod_box2{
+    background-color: rgba(255, 85, 0, 0.477);
+}
+.prod_box3{
+    background-color: rgb(143, 167, 205);
+}
+.prod_box4{
+    background-color: rgb(237, 104, 130);
+}
+.prod_box5{
+    background-color: rgb(218, 142, 218);
+}
+.prod_box6{
+    background-color: yellow;
+}
+.prod_box7{
+    background-color: rgb(131, 131, 67);
 }
